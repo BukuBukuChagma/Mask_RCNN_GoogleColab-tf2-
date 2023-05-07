@@ -1,3 +1,6 @@
+# Note
+This is a forked version of the orignal Mask R-CNN implementation repo by matterport. The orignal repo works for tf1 but google colab uses tf2 so it doesn't work on google colab. I updated it to tf2 and made changes so the demo of the Mask-RCNN can work on google colab. Also only demo implementation has been tested on google colab. Train and finetuning etc might not work. Please refer to the [Demo notebook](https://github.com/BukuBukuChagma/Mask_RCNN_GoogleColab-tf2-/blob/master/Google_Colab_Demo.ipynb) for demo implantation on Google Colab.
+
 # Mask R-CNN for Object Detection and Segmentation
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
